@@ -1,0 +1,14 @@
+body {
+    background-color: lightgrey;
+}
+
+.btn:hover {
+    color: lightslategray;
+}
+
+.exercise1 {
+    background-color: lightgreen;
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+}

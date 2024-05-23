@@ -9,7 +9,7 @@ const App = () => {
   return (
     <div>
         <Exercise1/>
-        {/* <UpdatePizza/> */}
+        <UpdatePizza/>
         {/* <Cart/> */}
         {/* <ExpandableText/> */}
     </div>

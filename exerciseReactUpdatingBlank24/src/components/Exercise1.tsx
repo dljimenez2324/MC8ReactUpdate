@@ -30,6 +30,8 @@ const Exercise1 = () => {
     }
 
   return (
+    <>
+    
     <div className="exercise1">
         <h3>Exercise 1</h3>
         <div className="mx-2 p-2">{game.player.name}</div>
@@ -38,8 +40,10 @@ const Exercise1 = () => {
         <button onClick={handleClick} className="col-2 btn btn-primary m-1">Click to Change Player's Name</button>
         <button onClick={handleClickBack} className="col-3 btn btn-primary m-1">Click to Change Player's Name Back</button>
         </div>
-        <br></br>
+        
     </div>
+
+    </>
   )
 }
 

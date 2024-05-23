@@ -11,4 +11,12 @@ body {
     display:flex;
     flex-direction:column;
     justify-content: start;
+
+    padding: 2rem;
+}
+
+.updatePizza {
+    background-color: lightgoldenrodyellow;
+    padding: 2rem;
+
 }

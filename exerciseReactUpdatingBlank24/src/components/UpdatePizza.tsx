@@ -28,7 +28,7 @@ const UpdatePizza = () => {
         <button className='btn btn-warning' onClick={handleClick}>Add Cheese</button>
         <br></br>
       </div>
-      <br></br>
+      
     </>
     
   )

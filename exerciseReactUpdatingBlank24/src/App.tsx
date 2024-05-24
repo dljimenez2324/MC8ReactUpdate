@@ -10,7 +10,7 @@ const App = () => {
     <div>
         <Exercise1/>
         <UpdatePizza/>
-        {/* <Cart/> */}
+        <Cart/>
         {/* <ExpandableText/> */}
     </div>
   );

@@ -12,13 +12,18 @@ const Cart = () => {
     })
 
     const handleClick =() => {
-       
+       setCart({...cart, items: cart.items.map(item => item.id == 1 ? {...item, quantity: item.quantity + 1} : item)})
     }
   return (
-    <div>
+    <>
       {/* Title, show items, button to handle the update Update Cart  */}
-      
-    </div>
+      <div className='cartStyles'>
+        <h3>Cart</h3>
+        <div><strong>Product in Cart: </strong>{cart.items[0].title}</div>
+        <div><strong>Quantity of this product: </strong>{cart.items[0].quantity}</div>
+        <button className='col-3 btn btn-success m-1' onClick={handleClick}>Add 1 to Quantity</button>
+      </div>
+    </>
   )
 }
 

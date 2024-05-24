@@ -32,16 +32,15 @@ const Exercise1 = () => {
   return (
     <>
     
-    <div className="exercise1">
+      <div className="exercise1">
         <h3>Exercise 1</h3>
-        <div className="mx-2 p-2">{game.player.name}</div>
+        <div className="mx-2 p-2"><strong>Player's Name: </strong>{game.player.name}</div>
         <div>
-
-        <button onClick={handleClick} className="col-2 btn btn-primary m-1">Click to Change Player's Name</button>
-        <button onClick={handleClickBack} className="col-3 btn btn-primary m-1">Click to Change Player's Name Back</button>
+          <button onClick={handleClick} className="col-2 btn btn-primary m-1">Click to Change Player's Name</button>
+          <button onClick={handleClickBack} className="col-3 btn btn-primary m-1">Click to Change Player's Name Back</button>
         </div>
-        
-    </div>
+          
+      </div>
 
     </>
   )
